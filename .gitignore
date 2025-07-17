@@ -1,0 +1,25 @@
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Jupyter Notebook specific files
+.ipynb_checkpoints/ # Temporary files Jupyter creates
+*.ipynb-checkpoint # More Jupyter temp files
+
+# Data files (usually too large for Git, manage separately or via Git LFS)
+data/raw/ # Raw data is often large and should not be committed
+data/processed/ # Processed data can also be large, or reproducible from raw + code
+
+# Models (can be large binary files)
+models/
+
+# VS Code specific files
+.vscode/
+
+# Operating System generated files
+Thumbs.db # Windows
