@@ -12,8 +12,7 @@ __pycache__/
 *.ipynb-checkpoint # More Jupyter temp files
 
 # Data files (usually too large for Git, manage separately or via Git LFS)
-data/raw/ # Raw data is often large and should not be committed
-data/processed/ # Processed data can also be large, or reproducible from raw + code
+data/
 
 # Models (can be large binary files)
 models/
