@@ -8,17 +8,17 @@ __pycache__/
 *.pyc
 
 # Jupyter Notebook specific files
-.ipynb_checkpoints/ # Temporary files Jupyter creates
-*.ipynb-checkpoint # More Jupyter temp files
+.ipynb_checkpoints/ 
+*.ipynb-checkpoint 
 
-# Data files (usually too large for Git, manage separately or via Git LFS)
+# Data files
 data/
 
-# Models (can be large binary files)
+# Models 
 models/
 
 # VS Code specific files
 .vscode/
 
 # Operating System generated files
-Thumbs.db # Windows
+Thumbs.db
