@@ -29,7 +29,6 @@ The project is structured into a series of Jupyter notebooks that follow a logic
     * Splits the data into training and testing sets.
     * Builds and evaluates a baseline Logistic Regression model (86% accuracy) and a more complex Random Forest model (87% accuracy).
     * Performs hyperparameter tuning using `GridSearchCV` on the Random Forest model, which confirmed the 87% accuracy and suggested the model is feature-limited.
-    * Saves the final model and scaler objects to the `models/` directory.
 
 4. **'04_results_analysis.ipynb'**:
 * Displays the dataframe containing results from each iteration
