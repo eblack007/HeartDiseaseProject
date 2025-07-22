@@ -12,10 +12,10 @@ __pycache__/
 *.ipynb-checkpoint 
 
 # Data files
-data/
+#data/
 
 # Models 
-models/
+#models/
 
 # VS Code specific files
 .vscode/
